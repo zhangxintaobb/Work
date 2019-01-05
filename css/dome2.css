@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+    border:none;
+}
+.car{
+
+    width: 400px;
+    height: 220px;
+    position: absolute;
+    display: none;
+    left:440px;
+    top:50%;
+    z-index: 10000;
+    border:2px solid #aca9d3;
+    background-color: #fff;
+
+}
+.car1{
+    margin-top: 40px;
+}
+.car2{
+    margin-left: 27px;
+}
+
+.car3{
+    margin-left: 380px;
+    cursor: pointer;
+}
+.carb{
+    border:none;
+    width: 155px;
+    height: 40px;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font-family:'黑体';
+    cursor: pointer;
+    background-color: #ff0754;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+.cara{
+    border:1px  solid #ff0754 ;
+    width: 155px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    font-family:'黑体';
+    color: #ff0754;
+    display: block;
+    float: left;
+
+}
+#sliderrr {
+    width: 205px;
+    height: 205px;
+    background: #CCC;
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: move;
+    display: none;
+}
+#daba{
+    width:820px;
+    height:820px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 1px;
+}
