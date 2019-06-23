@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+    
+    #sea{
+                width:502px;
+                height:50px;
+                 position: absolute;
+                 left:38%;
+                 top: 70%;
+            }
+            #sea button{
+                height:50px;
+                float:left;
+                width:100px;
+                margin:0 auto;
+                font-size: 20px;
+            }
+            #sea input{
+                height:50px;
+                float:left;
+                width:240px;
+                background-color: rgb(245, 241, 241);
+                border:rgb(245, 241, 241);
+                font-size: 20px;
+            }
+            .hotel{
+                    display:none;
+                }
+            @media screen and (max-width: 767px){
+                    
+            }
+     </style>
+</head>
+<body>
+    <!-- 轮播 -->
+    <div id="generic" class="carousel slide" data-ride="carousel" data-wrap='true'>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner" >
+                <div class="item active">
+                        <img src="英华逸游/img/banner.jpg" style=" width:100%;">
+                        <div class="carousel-caption">
+                                <h1>悠游古欧洲  遍览德法瑞意</h1>
+                                <h4>巴黎卢浮宫、塞纳河游船、凡尔赛宫</h4>
+                                <h4>少女峰、大运河游船、金色列车、西庸城堡</h4>
+                                <h4  class='hotel' style='margin-top:40px;'>全程升级热早+1晚五星酒店</h4> 
+                        </div>       
+                </div>
+                <div class="item">
+                        <img alt="Second slide" src="英华逸游/img/banner2.jpg" style="width: 100%">
+                </div>
+                <!-- 搜索框 -->
+                <div class='search' id="sea">
+                        <button type='button' class='btn'>
+                            <img src='英华逸游/img/position.png' style="float:left">
+                                目的地
+                        </button>
+                        <input type="text"placeholder='&nbsp| &nbsp日本&nbsp  美国&nbsp英国 &nbsp地中海'>
+                        <button type='button' class='btn'  style="height:50px;float:left;width:100px;margin:0 auto;font-size: 20px;"><img src="英华逸游/img/search.png"></button>
+                    </div>
+        <!-- 轮播导航 -->
+        <a class="left carousel-control" href="#generic" data-slide="prev" >
+            <span class="glyphicon glyphicon-chevron-left" ></span>
+       </a>
+    
+       <a class="right carousel-control" href="#generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" ></span>
+       </a>
+    </div>
+    </div>
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
